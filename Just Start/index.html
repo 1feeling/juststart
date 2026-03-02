@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>difficult? just start</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-code">
+            <span class="code-line">console.log("Загрузка...");</span>
+            <span class="code-line">// Добро пожаловать в мир программирования!</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="main-nav">
+                <div class="nav-brand">
+                    <span class="code-icon"><i class="fas fa-code"></i></span>
+                    <span>Just Start</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active"><i class="fas fa-home"></i> Главная</a></li>
+                    <li><a href="roadmaps.html" class="nav-link"><i class="fas fa-map-marked-alt"></i> Roadmaps</a></li>
+                    <li><a href="courses.html" class="nav-link"><i class="fas fa-graduation-cap"></i> Курсы</a></li>
+                    <li><a href="community.html" class="nav-link"><i class="fas fa-users"></i> Сообщество</a></li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle">🌙</button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Так ли сложно начать <span class="text-gradient">программировать</span>?</h1>
+                    <p class="hero-subtitle">Развеиваем мифы и показываем, что программирование доступно каждому</p>
+                    <div class="hero-buttons">
+                        <a href="#start" class="btn btn-primary">Начать сейчас</a>
+                        <a href="#video" class="btn btn-secondary">Смотреть видео</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-animation">
+                        <div class="code-window">
+                            <div class="window-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="code-content">
+                                <pre><code>function startProgramming() {
+  console.log("Привет, мир!");
+  return "Успех!";
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Myths Section -->
+        <section id="myths" class="section">
+            <div class="container">
+                <h2 class="section-title">Распространенные мифы</h2>
+                <div class="myths-grid">
+                    <div class="myth-card">
+                        <div class="myth-icon"><i class="fas fa-calculator"></i></div>
+                        <h3>Нужно быть гением математики</h3>
+                        <p>На самом деле большинство направлений требуют только базовых математических знаний</p>
+                        <button class="read-more-btn">Подробнее  </button>
+                    </div>
+                    <div class="myth-card">
+                        <div class="myth-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>Требуется высшее образование</h3>
+                        <p>Многие успешные программисты - самоучки без формального образования</p>
+                        <button class="read-more-btn">Подробнее</button>
+                    </div>
+                    <div class="myth-card">
+                        <div class="myth-icon"><i class="fas fa-birthday-cake"></i></div>
+                        <h3>Это только для молодых</h3>
+                        <p>Начать программировать можно в любом возрасте - 20, 30, 40 или даже 50+</p>
+                        <button class="read-more-btn">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Steps Section -->
+        <section id="start" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">С чего начать путь</h2>
+                <div class="journey-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Выберите язык программирования</h3>
+                            <p>Python, JavaScript или Java - отличный выбор для начала</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Пройдите онлайн-курсы</h3>
+                            <p>Используйте бесплатные ресурсы для изучения основ</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Создавайте проекты</h3>
+                            <p>Начинайте с простых задач и постепенно увеличивайте сложность</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Присоединяйтесь к сообществу</h3>
+                            <p>Общайтесь с другими разработчиками и участвуйте в проектах</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Videos Section -->
+        <section id="video" class="section">
+            <div class="container">
+                <h2 class="section-title">Лучшие видео для старта</h2>
+                <div class="videos-grid">
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/dEBVe8Ij7JU/maxresdefault.jpg" alt="Программирование для начинающих">
+                            <div class="video-duration">2:15:30</div>
+                        </div>
+                        <h4>Программирование для начинающих</h4>
+                        <p class="video-channel">Владилен Минин</p>
+                        <span class="video-level">Начинающий</span>
+                        <button class="btn watch-btn">Смотреть</button>
+                    </div>
+                    <div class="video-card">
+                        <div class="video-thumbnail">
+                            <img src="https://img.youtube.com/vi/PkZNo7MFNFg/maxresdefault.jpg" alt="JavaScript за 1 час">
+                            <div class="video-duration">1:15:22</div>
+                        </div>
+                        <h4>JavaScript за 1 час</h4>
+                        <p class="video-channel">FreeCodeCamp</p>
+                        <span class="video-level">Начинающий</span>
+                        <button class="btn watch-btn">Смотреть</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Courses Section -->
+        <section class="section popular-courses-section">
+            <div class="container">
+                <h2 class="section-title">Популярные курсы для старта</h2>
+                <div class="popular-courses-grid" id="popularCoursesGrid">
+                    <!-- Курсы будут загружены через JavaScript -->
+                    <div class="loading">Загрузка курсов...</div>
+                </div>
+                <div class="text-center" style="margin-top: 3rem;">
+                    <a href="courses.html" class="btn btn-primary">Смотреть все курсы</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="0">0</div>
+                        <div class="stat-label">Самоучек в IT</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="6">0</div>
+                        <div class="stat-label">Месяцев до первой работы</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="500">0</div>
+                        <div class="stat-label">Бесплатных курсов</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Just Start</h3>
+                    <p>Помогаем начать путь в IT с 2026 года</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="courses.html">Курсы</a></li>
+                        <li><a href="roadmaps.html">Roadmaps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Ресурсы</h4>
+                    <ul>
+                        <li><a href="https://roadmap.sh" target="_blank">Roadmap.sh</a></li>
+                        <li><a href="https://freecodecamp.org" target="_blank">FreeCodeCamp</a></li>
+                        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Just Start. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>

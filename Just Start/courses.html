@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курсы программирования - StartProgramming</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="main-nav">
+                <div class="nav-brand">
+                    <span class="code-icon"><i class="fas fa-code"></i></span>
+                    <span>Just Start</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Главная</a></li>
+                    <li><a href="roadmaps.html" class="nav-link"><i class="fas fa-map-marked-alt"></i> Roadmaps</a></li>
+                    <li><a href="courses.html" class="nav-link active"><i class="fas fa-graduation-cap"></i> Курсы</a></li>
+                    <li><a href="community.html" class="nav-link"><i class="fas fa-users"></i> Сообщество</a></li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Курсы программирования</h1>
+                <p>Подборка лучших бесплатных и платных курсов для начинающих</p>
+            </div>
+        </section>
+
+        <section class="courses-section">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Все курсы</button>
+                    <button class="filter-btn" data-filter="free">Бесплатные</button>
+                    <button class="filter-btn" data-filter="paid">Платные</button>
+                    <button class="filter-btn" data-filter="beginner">Для начинающих</button>
+                </div>
+
+                <div class="courses-grid" id="coursesGrid">
+                    <!-- Курсы будут загружены через JavaScript -->
+                    <div class="loading">Загрузка курсов...</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Just Start</h3>
+                    <p>Помогаем начать путь в IT</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="courses.html">Курсы</a></li>
+                        <li><a href="roadmaps.html">Roadmaps</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

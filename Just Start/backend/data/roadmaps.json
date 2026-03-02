@@ -1,0 +1,60 @@
+[
+    {
+        "id": "frontend",
+        "icon": "fa-react",
+        "title": "Frontend Developer",
+        "shortDesc": "HTML, CSS, JavaScript, React, Vue, Angular",
+        "url": "https://roadmap.sh/frontend",
+        "color": "#61DAFB",
+        "steps": [
+            { "name": "Основы интернета", "description": "Как работает HTTP, браузеры, DNS." },
+            { "name": "HTML и CSS", "description": "Структура страниц, стили, адаптивность, Flexbox, Grid." },
+            { "name": "JavaScript", "description": "Основы, DOM, события, асинхронность, ES6+." },
+            { "name": "Фреймворки", "description": "React, Vue или Angular (выбери один)." },
+            { "name": "State Management", "description": "Redux, Vuex, Context API." },
+            { "name": "Сборщики", "description": "Webpack, Vite." }
+        ],
+        "resources": [
+            { "name": "freeCodeCamp", "url": "https://www.freecodecamp.org/" },
+            { "name": "The Odin Project", "url": "https://www.theodinproject.com/" }
+        ]
+    },
+    {
+        "id": "backend",
+        "icon": "fa-server",
+        "title": "Backend Developer",
+        "shortDesc": "Node.js/Python, Databases, APIs, DevOps",
+        "url": "https://roadmap.sh/backend",
+        "color": "#68A063",
+        "steps": [
+            { "name": "Язык программирования", "description": "Выбери: Python, JavaScript (Node.js), Java, Go." },
+            { "name": "Базы данных", "description": "Реляционные (PostgreSQL) и нереляционные (MongoDB)." },
+            { "name": "API", "description": "REST, GraphQL." },
+            { "name": "Безопасность", "description": "Аутентификация, авторизация, шифрование." },
+            { "name": "Контейнеризация", "description": "Docker." },
+            { "name": "CI/CD", "description": "GitHub Actions, GitLab CI." }
+        ],
+        "resources": [
+            { "name": "Node.js Course", "url": "https://nodejs.org/en/learn/" },
+            { "name": "Docker Curriculum", "url": "https://docker-curriculum.com/" }
+        ]
+    },
+    {
+        "id": "fullstack",
+        "icon": "fa-layer-group",
+        "title": "Fullstack Developer",
+        "shortDesc": "Frontend + Backend + DevOps + Testing",
+        "url": "https://roadmap.sh/full-stack",
+        "color": "#764ba2",
+        "steps": [
+            { "name": "Фронтенд", "description": "Пройди все этапы Frontend-разработки." },
+            { "name": "Бэкенд", "description": "Освой один из бэкенд-языков и работу с БД." },
+            { "name": "DevOps", "description": "Основы CI/CD, деплой." },
+            { "name": "Тестирование", "description": "Unit, интеграционное, e2e тесты." },
+            { "name": "Базы данных", "description": "SQL и NoSQL базы данных." }
+        ],
+        "resources": [
+            { "name": "Full Stack Open", "url": "https://fullstackopen.com/" }
+        ]
+    }
+]
